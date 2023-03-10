@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
+import Header from './components/Header/Header';
+import NavBar from './components/Navbar/NavBar';
 import './App.css';
-import Profile from './components/Profile';
+import Profile from './components/Profile/Profile';
 
 
 const App = () => {
   return (
-    <div className='app-wrapper'>
+    <div className="app-wrapper">
       <Header />
-      <Navbar />
+      <NavBar />
       <Profile />
     </div>
   );

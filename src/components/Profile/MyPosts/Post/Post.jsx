@@ -7,7 +7,9 @@ const Post = () => {
             <img src="x" alt="Avatar  " />
             post 1
             <span>Like</span>
+            <input type='text' />
         </div>
+
     )
 }
 

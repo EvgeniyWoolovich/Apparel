@@ -1,0 +1,28 @@
+.person-block {
+    display: flex;
+}
+
+.avatar {
+    margin-right: 22px;
+}
+
+.person-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 300px;
+}
+
+.person-name {
+    font-family: "League Spartan", sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow:  -1px -1px 2px #6F6DEB, 1px -1px 2px #6F6DEB, -1px 1px 2px #6F6DEB, 1px 1px 2px #6F6DEB;;
+}
+
+.span {
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 300;
+}
